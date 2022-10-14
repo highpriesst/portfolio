@@ -13,6 +13,8 @@ const dark = false;
 
 //Todo: Check the devslife page for inspiration
 
+//Design this for the MOBILE first !
+
 //Make sure navbar is complete before moving to footer.
 
 export const Navbar = () => {
