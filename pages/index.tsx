@@ -12,9 +12,9 @@ export default function Home() {
       </Head>
 
       {/* TODO: Anasayfa animasyonu */}
-      <div className="bg-gray-700">
+      <div className="bg-gray-100 dark:bg-gray-700">
         <Navbar />
-        <div className="flex justify-center items-center h-screen bg-gray-700">
+        <div className="flex justify-center items-center h-screen bg-gray-100 dark:bg-gray-700">
           <h1 className="font-bold">Hello world</h1>
         </div>
       </div>

@@ -18,8 +18,8 @@ import Image from "next/image";
 
 export const Navbar = () => {
   return (
-    <div className="flex list-none gap-5 justify-between sm:justify-center text-white items-center p-3 md:pt-2 font-thin">
-      <li className=" font-normal">
+    <div className="flex list-none gap-5 justify-between sm:justify-center bg-gray-200 dark:text-white items-center p-3 md:pt-2 font-thin">
+      <li className=" font-normal flex item-center">
         <span className="pl-2">Ertan Mutlu</span>
       </li>
       <li className=" hidden sm:block">Works</li>
