@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Navbar } from "../components/navbar";
+import { Navbar, Footer } from "../components/helper";
 
 // Ana sayfaya girerken bi logo animasyonu yap? Icinde 3 yazsin.
 
@@ -14,9 +13,11 @@ export default function Home() {
       {/* TODO: Anasayfa animasyonu */}
       <div className="">
         <Navbar />
-        <div className="flex justify-center items-center h-screen bg-gray-100 dark:bg-gray-600">
+        <div className="flex justify-center items-center h-screen bg-gray-100 dark:bg-gray-800">
           <h1 className="font-bold">Hello world</h1>
         </div>
+
+        <Footer />
       </div>
     </div>
   );
