@@ -25,8 +25,8 @@ export const Navbar = () => {
     <>
       <nav className="flex items-center flex-wrap dark:bg-gray-900 p-1 ">
         <Link href="/">
-          <a className="flex items-center justify-center p-2 align-middle">
-            <Image src="/3e.png" width={30} height={30} alt="logo" />
+          <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800  dark:text-white font-bold items-center justify-center ">
+            Ertan
           </a>
         </Link>
         <button
