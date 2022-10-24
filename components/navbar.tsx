@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import {
+  HomeIcon,
+  UserIcon,
+  InboxArrowDownIcon,
+} from "@heroicons/react/24/outline";
 
 //Todo: Use link components from nextjs instead the li component down below.
 
@@ -54,22 +58,26 @@ export const Navbar = () => {
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col ` lg:h-auto">
             <Link href="/">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800 hover:underline dark:text-white font-bold items-center justify-center dark:hover:bg-gray-800 dark:hover:text-white ">
+                <span>
+                  <HomeIcon className="h-6 w-6 text-white-300 p-1" />
+                </span>
                 Home
               </a>
             </Link>
-            <Link href="/">
+            <Link href="/about">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800 hover:underline dark:text-white font-bold items-center justify-center dark:hover:bg-gray-800 dark:hover:text-white">
-                Services
+                <span>
+                  <UserIcon className="h-6 w-6 text-white-300 p-1" />
+                </span>
+                About me
               </a>
             </Link>
-            <Link href="/">
+            <Link href="/contact">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800 hover:underline dark:text-white font-bold items-center justify-center dark:hover:bg-gray-800 dark:hover:text-white">
-                About us
-              </a>
-            </Link>
-            <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800 hover:underline dark:text-white font-bold items-center justify-center dark:hover:bg-gray-800 dark:hover:text-white">
-                Contact us
+                <span>
+                  <InboxArrowDownIcon className="h-6 w-6 text-white-300 p-1" />
+                </span>
+                Contact
               </a>
             </Link>
           </div>
