@@ -61,7 +61,8 @@ export const Navbar = () => {
           }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col ` lg:h-auto">
             <Link href="/">
-              <a className="flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800 hover:underline dark:text-white font-bold items-center justify-center dark:hover:bg-gray-800 dark:hover:text-white ">
+              <a
+                className={`flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800  dark:text-gray-300 active:text-white font-bold items-center justify-center dark:hover:bg-gray-800`}>
                 <span>
                   <HomeIcon
                     className={`h-6 w-6 text-white-300 p-1 ${
@@ -73,7 +74,7 @@ export const Navbar = () => {
               </a>
             </Link>
             <Link href="/about">
-              <a className="flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800 hover:underline dark:text-white font-bold items-center justify-center dark:hover:bg-gray-800 dark:hover:text-white">
+              <a className="flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800  dark:text-gray-300 font-bold items-center justify-center dark:hover:bg-gray-800 ">
                 <span>
                   <UserIcon
                     className={`h-6 w-6 text-white-300 p-1 ${
@@ -85,7 +86,7 @@ export const Navbar = () => {
               </a>
             </Link>
             <Link href="/contact">
-              <a className="flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800 hover:underline dark:text-white font-bold items-center justify-center dark:hover:bg-gray-800 dark:hover:text-white">
+              <a className="flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800  dark:text-gray-300 font-bold items-center justify-center dark:hover:bg-gray-800 ">
                 <span>
                   <PaperAirplaneIcon
                     className={`h-6 w-6 text-white-300 p-1 ${
