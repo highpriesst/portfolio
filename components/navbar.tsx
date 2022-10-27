@@ -27,30 +27,27 @@ export const Navbar = () => {
     setActive(!active);
   };
 
-  const BoxStyled = styled(motion.div)`
-    display: flex;
-  `;
-
   return (
     <>
       <nav
         className={`flex items-center ${
           active ? "flex-wrap" : "justify-between"
-        } dark:bg-gray-900 p-2`}>
+        } dark:bg-gray-900 p-2 justify-between`}>
         <Link href="/">
           <a
             className={`lg:inline-flex lg:w-auto  px-3 py-2 rounded text-cyan-800  dark:text-white font-bold items-center justify-center `}>
             Ertan
           </a>
         </Link>
+
         <motion.div
           transition={{
-            delay: 0.5,
+            delay: 2,
             x: { duration: 1 },
             default: { easee: "linear" },
           }}>
           <button
-            className=" inline-flex p-3 text-black dark:hover:bg-gray-800 rounded lg:hidden dark:text-white ml-auto hover:bg-gray-100 outline-none"
+            className="inline-flex p-3 text-black dark:hover:bg-gray-800 rounded lg:hidden dark:text-white ml-auto hover:bg-gray-100 outline-none"
             onClick={handleClick}>
             <svg
               className="w-6 h-6"
