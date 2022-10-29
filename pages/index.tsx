@@ -13,7 +13,7 @@ export default function Home() {
 
       <div className="">
         <Navbar />
-        <div className="flex justify-center items-center h-screen bg-gray-100 dark:bg-gray-800">
+        <div className="flex justify-center items-center h-screen bg-gray-100 dark:bg-gray-900">
           <h1>Home Page</h1>
         </div>
         <Footer />

@@ -11,8 +11,12 @@ function About() {
 
       <div className="">
         <Navbar />
-        <div className="flex justify-center items-center h-screen bg-gray-100 dark:bg-gray-800">
-          <h1 className="font-bold">About me</h1>
+        <div className="flex flex-col items-center h-screen bg-gray-100 dark:bg-gray-900 p-3 text-gray-300 ">
+          <p>dawdawd</p>
+          <p>dawdawd</p>
+          <p>dawdawd</p>
+          <p>dawdawd</p>
+          <h2>about</h2>
         </div>
 
         <Footer />
