@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ##TODO
 
-- [ ] Custom LOGO
+- [] Custom LOGO
 
 ## Getting Started
 
