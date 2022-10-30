@@ -8,18 +8,6 @@ import {
 
 import { motion } from "framer-motion";
 
-//Todo: Use link components from nextjs instead the li component down below.
-
-//Make sure all the links are working fine.
-
-//Todo: Implement the theme button and double check, add test if necessery.
-
-//Todo: Research test for nextjs, add if you think its necessery.
-
-//Todo: Check the devslife page for inspiration
-
-//Make sure navbar is complete before moving to footer.
-
 export const Navbar = () => {
   const [active, setActive] = useState(false);
 
@@ -28,7 +16,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="sticky top-0">
+    <div className="sticky top-0 border-b-2 border-gray-800">
       <div className="flex justify-center item-center bg-gray-900 overflow-hidden">
         <nav
           className={`flex items-center ${
