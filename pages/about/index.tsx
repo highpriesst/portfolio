@@ -10,7 +10,6 @@ function About() {
       </Head>
 
       <div className="">
-        <Navbar />
         <div className="flex flex-col items-center h-screen bg-gray-100 dark:bg-gray-900 p-3 text-gray-300 ">
           <p>dawdawd</p>
           <p>dawdawd</p>
