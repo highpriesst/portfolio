@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { Footer } from "../../components/helper";
+import { Footer } from "../../components";
 
 import { Input, Textarea, Grid } from "@nextui-org/react";
 
@@ -11,13 +11,9 @@ function Contact() {
         <title>Contact</title>
       </Head>
 
-      <div>
-        <div className="flex justify-center items-center h-screen bg-gray-100 dark:bg-gray-900">
-          <div className="flex flex-col items-center h-screen m-2 bg-gray-100 dark:bg-gray-900 p-3 text-gray-300 "></div>
-        </div>
-
-        <Footer />
-      </div>
+      <section className="flex justify-center items-center h-screen w-screen bg-gray-100 dark:bg-gray-800 text-white  snap-start">
+        <h1>contact ertansofia@gmail.com</h1>
+      </section>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { Navbar, Footer } from "../../components/helper";
+import { Navbar, Footer } from "../../components";
 
 function About() {
   return (
@@ -8,17 +8,10 @@ function About() {
       <Head>
         <title>About</title>
       </Head>
-
-      <div className="">
-        <div className="flex flex-col items-center h-screen bg-gray-100 dark:bg-gray-900 p-3 text-gray-300 ">
-          <p>dawdawd</p>
-          <p>dawdawd</p>
-          <p>dawdawd</p>
-          <p>dawdawd</p>
-          <h2>about</h2>
-        </div>
-
-        <Footer />
+      <div>
+        <section className="flex justify-center items-center h-screen w-screen bg-gray-100 dark:bg-gray-800 text-white  snap-start">
+          <h1>about text </h1>
+        </section>
       </div>
     </div>
   );
