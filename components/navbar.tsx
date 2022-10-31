@@ -23,10 +23,10 @@ export const Navbar = () => {
             active ? "flex-wrap" : "justify-between"
           } p-2 justify-between rounded-b-2xl lg:rounded-b-2xl w-full`}>
           <Link href="/">
-            <a
+            <p
               className={`flex lg:flex lg:w-auto items-center justify-center h-10 w-10 px-3 py-1 ml-3 mt-3 dark:hover:bg-gray-800 border-green-300 border rounded-full font-extrabold text-xl dark:text-green-300  `}>
               E
-            </a>
+            </p>
           </Link>
 
           <motion.div>
@@ -55,7 +55,7 @@ export const Navbar = () => {
             <div
               className={`lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto`}>
               <Link href="/about">
-                <a
+                <p
                   className={`flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800  dark:text-green-300 font-extralight items-center justify-center lg:dark:hover:bg-gray-800 lg:dark:hover:rounded-2xl`}>
                   <span>
                     <UserIcon
@@ -65,10 +65,10 @@ export const Navbar = () => {
                     />
                   </span>
                   About me
-                </a>
+                </p>
               </Link>
               <Link href="/contact">
-                <a className="flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800  dark:text-green-300 font-extralight items-center justify-center lg:dark:hover:bg-gray-800 lg:dark:hover:rounded-2xl">
+                <p className="flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800  dark:text-green-300 font-extralight items-center justify-center lg:dark:hover:bg-gray-800 lg:dark:hover:rounded-2xl">
                   <span>
                     <PaperAirplaneIcon
                       className={`h-6 w-6 text-white-300 p-1 ${
@@ -77,7 +77,7 @@ export const Navbar = () => {
                     />
                   </span>
                   Contact
-                </a>
+                </p>
               </Link>
             </div>
           </div>

@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-900 w-full py-2 border-t-2 border-gray-800">
+    <footer className="bg-white dark:bg-gray-900 w-full py-2 border-t-2 border-gray-800 fixed bottom-0">
       <div className="max-w-screen-xl mx-auto px-4">
         <div className="pt-1 flex max-w-xs mx-auto items-center justify-center gap-5">
           <a
-            href="#"
+            href="https://www.github.com/highpriesst"
             className="text-gray-400 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +19,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/highpriesst/"
             className="text-gray-400 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
             <svg
               width="20"
