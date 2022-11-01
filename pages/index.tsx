@@ -14,25 +14,25 @@ export default function Main() {
         <title>Ertan Mutlu</title>
       </Head>
 
-      <div className="snap-y snap-mandatory overflow-scroll h-screen w-screen">
+      <div className="snap-y snap-mandatory overflow-scroll h-screen w-screen bg-navy-900">
         <motion.section
           id="home"
-          className="flex justify-center items-center h-screen w-screen bg-gray-100 dark:bg-gray-900 text-white snap-start">
+          className="flex justify-center items-center h-screen w-screen dark:bg-navy-900 text-fire-800 snap-start">
           <Home />
         </motion.section>
         <motion.section
           id="projects"
-          className="flex justify-center items-center h-screen w-screen bg-gray-100 dark:bg-gray-800 text-white  snap-start">
+          className="flex justify-center items-center h-screen w-screen  dark:bg-navy-900 text-fire-800  snap-start">
           <Projects />
         </motion.section>
         <motion.section
           id="about"
-          className="flex justify-center items-center h-screen w-screen bg-gray-100 dark:bg-gray-700 text-white  snap-start">
+          className="flex justify-center items-center h-screen w-screen  dark:bg-navy-900 text-fire-800  snap-start">
           <About />
         </motion.section>
         <motion.section
           id="contact"
-          className="flex justify-center items-center h-screen w-screen bg-gray-100 dark:bg-gray-600 text-white snap-start">
+          className="flex justify-center items-center h-screen w-screen  dark:bg-navy-900 text-fire-800 snap-start">
           <Contact />
         </motion.section>
       </div>
