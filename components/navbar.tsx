@@ -6,7 +6,7 @@ import {
   PaperAirplaneIcon,
 } from "@heroicons/react/24/outline";
 
-import { motion } from "framer-motion";
+import { motion as m } from "framer-motion";
 
 export const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -16,22 +16,22 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="sticky top-0 border-b-2 border-gray-800">
-      <div className="flex justify-center item-center bg-gray-900 overflow-hidden">
+    <div className="sticky top-0">
+      <div className="flex justify-center item-center bg-navy-900 overflow-hidden">
         <nav
           className={`flex items-center ${
             active ? "flex-wrap" : "justify-between"
           } p-2 justify-between rounded-b-2xl lg:rounded-b-2xl w-full`}>
           <Link href="/">
             <p
-              className={`flex lg:flex lg:w-auto items-center justify-center h-10 w-10 px-3 py-1 ml-3 mt-3 dark:hover:bg-gray-800 border-green-300 border rounded-full font-extrabold text-xl dark:text-green-300  `}>
+              className={`flex lg:flex lg:w-auto items-center justify-center h-10 w-10 px-3 py-1 ml-3 mt-3 hover:bg-navy-800 border-fire-800 border rounded-full font-bold text-xl dark:text-fire-800 `}>
               E
             </p>
           </Link>
 
-          <motion.div>
+          <m.div>
             <button
-              className="inline-flex p-3 text-black dark:hover:bg-gray-800 rounded lg:hidden dark:text-green-300 ml-auto outline-none"
+              className="inline-flex p-3 text-black dark:hover:bg-navy-900 rounded lg:hidden dark:text-fire-900 ml-auto outline-none"
               onClick={handleClick}>
               <svg
                 className="w-6 h-6"
@@ -47,20 +47,20 @@ export const Navbar = () => {
                 />
               </svg>
             </button>
-          </motion.div>
-          <div
+          </m.div>
+          <m.div
             className={`${
               active ? "" : "hidden"
             }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
             <div
-              className={`lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto`}>
+              className={`lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto`}>
               <Link href="/about">
                 <p
-                  className={`flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounde-xl text-cyan-800  dark:text-green-200 font-extralight items-center justify-center lg:dark:hover:rounded-2xl
+                  className={`flex font-bold lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-fire  dark:text-fire-800 items-center justify-center lg:dark:hover:bg-navy-800 lg:dark:hover:rounded-2xl
                     ${
                       active
-                        ? "dark:hover:bg-gray-800 w-max mx-auto rounded-xl"
-                        : "dark:hover:bg-gray-800"
+                        ? "dark:hover:bg-navy-900 w-max mx-auto rounded-xl"
+                        : "dark:hover:bg-navy-900"
                     }
                   `}>
                   <span>
@@ -75,16 +75,16 @@ export const Navbar = () => {
               </Link>
               <Link href="/contact">
                 <p
-                  className={`flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-cyan-800  dark:text-green-200 font-extralight items-center justify-center lg:dark:hover:bg-gray-800 lg:dark:hover:rounded-2xl
+                  className={`flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-fire  dark:text-fire-800 font-bold items-center justify-center lg:dark:hover:bg-navy-800 lg:dark:hover:rounded-2xl
                   ${
                     active
-                      ? "dark:hover:bg-gray-800 w-max mx-auto rounded-xl"
-                      : "dark:hover:bg-gray-800"
+                      ? "dark:hover:bg-navy-900 w-max mx-auto rounded-xl"
+                      : "dark:hover:bg-navy-900"
                   }
                 `}>
                   <span>
                     <PaperAirplaneIcon
-                      className={`h-6 w-6 text-white-300 p-1 ${
+                      className={`font-bold h-6 w-6 text-white-300 p-1 ${
                         active ? "float-left mr-1" : "visible"
                       }`}
                     />
@@ -93,7 +93,7 @@ export const Navbar = () => {
                 </p>
               </Link>
             </div>
-          </div>
+          </m.div>
         </nav>
       </div>
     </div>
