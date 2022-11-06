@@ -2,9 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## TODO
 
-- [] - Custom LOGO
-- [] - Fix FontFamily and font weight
-- [] - T...
+- [ ] Custom LOGO
+- [ ] Fix FontFamily and font weight
+- [ ] Footer framer animation
+- [ ] Framer motion in view
+
 ## Getting Started
 
 First, run the development server:
