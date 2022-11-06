@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
-
-@layer base {
-  body {
-    font-family: "Inconsolata", monospace;
-  }
+@font-face {
+  font-family: "Voga";
+  src: url("../public/font/Voga Regular.ttf");
+  src: url("../public/font/Voga Medium.ttf");
+  src: url("../public/font/Voga Bold.ttf");
 }

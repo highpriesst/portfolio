@@ -17,7 +17,7 @@ export const Navbar = () => {
 
   return (
     <div className="sticky top-0">
-      <div className="flex justify-center item-center bg-paleGray-900 overflow-hidden">
+      <div className="flex justify-center item-center bg-paleGray-900 overflow-hidden font-vogaBold">
         <nav
           className={`flex items-center ${
             active ? "flex-wrap" : "justify-between"
