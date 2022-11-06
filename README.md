@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 - [] - Custom LOGO
 - [] - Fix FontFamily and font weight
-
+- [] - T...
 ## Getting Started
 
 First, run the development server:
