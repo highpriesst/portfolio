@@ -17,21 +17,21 @@ export const Navbar = () => {
 
   return (
     <div className="sticky top-0">
-      <div className="flex justify-center item-center bg-navy-900 overflow-hidden">
+      <div className="flex justify-center item-center bg-paleGray-900 overflow-hidden">
         <nav
           className={`flex items-center ${
             active ? "flex-wrap" : "justify-between"
-          } p-2 justify-between rounded-b-2xl lg:rounded-b-2xl w-full`}>
+          } p-2 justify-between rounded-b-2xl lg:rounded-b-2xl w-full text-shinyRed-500`}>
           <Link href="/">
             <p
-              className={`flex lg:flex lg:w-auto items-center justify-center h-10 w-10 px-3 py-1 ml-3 mt-3 hover:bg-navy-800 border-fire-800 border rounded-full font-bold text-xl dark:text-fire-800 `}>
+              className={`flex lg:flex lg:w-auto items-center justify-center cursor-pointer border border-shinyRed-500 hover:bg-paleGray-800 h-10 w-10 px-3 py-1 ml-3 mt-1  rounded-full font-bold text-xl `}>
               E
             </p>
           </Link>
 
           <m.div>
             <button
-              className="inline-flex p-3 text-black dark:hover:bg-navy-900 rounded lg:hidden dark:text-fire-900 ml-auto outline-none"
+              className="inline-flex p-3 dark:hover:bg-paleGreen rounded lg:hidden  ml-auto outline-none cursor-pointer"
               onClick={handleClick}>
               <svg
                 className="w-6 h-6"
@@ -56,7 +56,7 @@ export const Navbar = () => {
               className={`lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto`}>
               <Link href="/about">
                 <p
-                  className={`flex font-bold lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-fire  dark:text-fire-800 items-center justify-center lg:dark:hover:bg-navy-800 lg:dark:hover:rounded-2xl
+                  className={`flex font-bold lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-fire items-center justify-center hover:bg-paleGray-800
                     ${
                       active
                         ? "dark:hover:bg-navy-900 w-max mx-auto rounded-xl"
@@ -75,7 +75,7 @@ export const Navbar = () => {
               </Link>
               <Link href="/contact">
                 <p
-                  className={`flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-fire  dark:text-fire-800 font-bold items-center justify-center lg:dark:hover:bg-navy-800 lg:dark:hover:rounded-2xl
+                  className={`flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-fire font-bold items-center justify-center hover:bg-paleGray-800
                   ${
                     active
                       ? "dark:hover:bg-navy-900 w-max mx-auto rounded-xl"
@@ -84,7 +84,7 @@ export const Navbar = () => {
                 `}>
                   <span>
                     <PaperAirplaneIcon
-                      className={`font-bold h-6 w-6 text-white-300 p-1 ${
+                      className={`font-bold h-6 w-6 p-1 ${
                         active ? "float-left mr-1" : "visible"
                       }`}
                     />
