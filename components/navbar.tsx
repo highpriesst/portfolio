@@ -17,7 +17,7 @@ export const Navbar = () => {
 
   return (
     <div className="sticky top-0">
-      <div className="flex justify-center item-center bg-paleGray-900 overflow-hidden font-vogaBold">
+      <div className="flex justify-center item-center bg-navy-900 overflow-hidden font-vogaBold">
         <nav
           className={`flex items-center ${
             active ? "flex-wrap" : "justify-between"
@@ -31,7 +31,7 @@ export const Navbar = () => {
 
           <m.div>
             <button
-              className="inline-flex p-3 dark:hover:bg-paleGreen rounded lg:hidden  ml-auto outline-none cursor-pointer"
+              className="inline-flex p-3 rounded lg:hidden  ml-auto outline-none cursor-pointer"
               onClick={handleClick}>
               <svg
                 className="w-6 h-6"
@@ -56,11 +56,11 @@ export const Navbar = () => {
               className={`lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto`}>
               <Link href="/about">
                 <p
-                  className={`flex font-bold lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-fire items-center justify-center hover:bg-paleGray-800
+                  className={`flex font-bold lg:inline-flex lg:w-auto w-full px-3 py-2 rounded-2xl text-fire items-center justify-center hover:bg-paleGray-800
                     ${
                       active
-                        ? "dark:hover:bg-navy-900 w-max mx-auto rounded-xl"
-                        : "dark:hover:bg-navy-900"
+                        ? "hover:bg-paleGray-800 w-max mx-auto rounded-2xl"
+                        : "hover:bg-paleGray-800"
                     }
                   `}>
                   <span>
@@ -75,11 +75,11 @@ export const Navbar = () => {
               </Link>
               <Link href="/contact">
                 <p
-                  className={`flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-fire font-bold items-center justify-center hover:bg-paleGray-800
+                  className={`flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded-2xl text-fire font-bold items-center justify-center hover:bg-paleGray-800
                   ${
                     active
-                      ? "dark:hover:bg-navy-900 w-max mx-auto rounded-xl"
-                      : "dark:hover:bg-navy-900"
+                      ? "hover:bg-paleGray-800 w-max mx-auto rounded-2xl"
+                      : "hover:bg-paleGray-800"
                   }
                 `}>
                   <span>
