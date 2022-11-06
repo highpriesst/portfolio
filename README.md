@@ -6,7 +6,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - [ ] Fix FontFamily and font weight
 - [ ] Footer framer animation
 - [ ] Framer motion in view
-
+- [ ] Add DALL-E Generated picture to homepage.
 ## Getting Started
 
 First, run the development server:
