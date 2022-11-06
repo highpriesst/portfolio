@@ -8,16 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        navy: {
-          800: "#29648A",
-          900: "#25274D",
+        paleGray: {
+          900: "#363636",
+          800: "#474747",
+          100: "#A8A7A7",
         },
-        fire: {
-          800: "#2E9CCA",
-          900: "#464866",
+        shinyRed: {
+          500: "#E8175D",
         },
-        alGray: {
-          900: "AAABBB",
+        paleRed: {
+          700: "#CC527A",
         },
       },
       extend: {},
