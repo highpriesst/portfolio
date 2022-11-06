@@ -22,7 +22,9 @@ module.exports = {
       },
       extend: {},
       fontFamily: {
-        Inconsolata: ["Inconsolata"],
+        vogaRegular: "Voga Regular",
+        vogaMedium: "Voga Medium",
+        vogaBold: "Voga Bold",
       },
     },
   },
