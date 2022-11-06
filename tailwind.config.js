@@ -19,6 +19,10 @@ module.exports = {
         paleRed: {
           700: "#CC527A",
         },
+        navy: {
+          900: "#001f3f",
+          200: "#0074D9",
+        },
       },
       extend: {},
       fontFamily: {
