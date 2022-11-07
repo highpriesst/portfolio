@@ -18,8 +18,8 @@ const PComponent: React.FC<Cards> = ({
           className="rounded-t-2xl object-cover object-center"
           src={image}
           alt="thumbnail"
-          width={100}
-          height={120}
+          width={150}
+          height={150}
         />
         <div className="p-4">
           <h1 className="text-2xl font-medium pb-2 text-shinyRed-500">
@@ -29,9 +29,9 @@ const PComponent: React.FC<Cards> = ({
             {description}
           </p>
         </div>
-        <Link className=" text-paleGray-800" href="/about">
+        <a className=" text-paleGray-800" href="#project-div">
           Go to projects {"=>"}
-        </Link>
+        </a>
       </div>
     </div>
   );
