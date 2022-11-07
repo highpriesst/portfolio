@@ -14,7 +14,7 @@ export default function Main() {
         <title>Ertan Mutlu</title>
       </Head>
 
-      <m.div className="snap-y snap-mandatory overflow-scroll h-screen w-screen bg-navy-900 font-vogaMedium">
+      <m.div className="snap-y snap-mandatory overflow-scroll h-screen w-screen bg-navy-900 font-vogaMedium scroll-smooth">
         <m.section
           id="home"
           className="flex justify-center items-center h-screen w-screen dark:bg-navy-900 text-fire-800 snap-start">
