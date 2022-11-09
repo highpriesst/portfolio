@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Cards, { CardProps } from "../../types/componentType";
+import { motion as m } from "framer-motion";
 
 // { image, title, description }
 
@@ -12,14 +13,19 @@ const PComponent: React.FC<Cards> = ({
   description,
 }: Cards) => {
   return (
-    <div className="relative flex min-h-screen flex-col justify-center" id={id}>
+    <m.div
+      className="relative flex min-h-screen flex-col justify-center"
+      id={id}
+      initial={{ x: "-100vw" }}
+      animate={{ x: 0 }}
+      transition={{ type: "spring", duration: 1, bounce: 0.3 }}>
       <div className=" flex w-auto flex-col justify-center item-center cursor-pointer rounded-2xl border border-paleGray-100">
         <Image
           className="rounded-t-2xl object-cover object-center"
           src={image}
           alt="thumbnail"
-          width={150}
-          height={150}
+          width={190}
+          height={190}
         />
         <div className="p-4">
           <h1 className="text-2xl font-medium pb-2 text-shinyRed-500">
@@ -29,11 +35,8 @@ const PComponent: React.FC<Cards> = ({
             {description}
           </p>
         </div>
-        <a className=" text-paleGray-800" href="#project-div">
-          Go to projects {"=>"}
-        </a>
       </div>
-    </div>
+    </m.div>
   );
 };
 

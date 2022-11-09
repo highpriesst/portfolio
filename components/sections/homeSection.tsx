@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const spotify = {
   id: "1",
-  image: "/thumbnails/spotify-thumbnail.jpg",
+  image: "/thumbnails/spotify-thumbnail-v2.jpg",
   title: "Spotify Profiler",
   description: "Spotify profiler done with nextjs typescript and tailwindcss",
 };

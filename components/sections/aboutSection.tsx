@@ -1,11 +1,15 @@
-import React from "react";
+import { motion as m } from "framer-motion";
 
-function about() {
+const AboutSection = () => {
   return (
-    <section className="flex justify-center items-center h-screen w-screen bg-gray-100 dark:bg-gray-700 text-white snap-start">
+    <m.section
+      initial={{ x: "-100vw" }}
+      animate={{ x: 0 }}
+      transition={{ type: "spring", duration: 1, bounce: 0.3 }}
+      className="flex justify-center items-center h-screen w-screen bg-navy-900  text-white snap-start">
       <h1>about Page</h1>
-    </section>
+    </m.section>
   );
-}
+};
 
-export default about;
+export default AboutSection;
