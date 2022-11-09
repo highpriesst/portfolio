@@ -1,6 +1,6 @@
-import React from "react";
 import Head from "next/head";
-import { Navbar, Footer } from "../../components";
+import { motion as m } from "framer-motion";
+import AboutSection from "../../components/sections/aboutSection";
 
 function About() {
   return (
@@ -8,11 +8,11 @@ function About() {
       <Head>
         <title>About</title>
       </Head>
-      <div>
-        <section className="flex justify-center items-center h-screen w-screen bg-gray-100 dark:bg-gray-800 text-white  snap-start">
-          <h1>about text </h1>
+      <m.div>
+        <section className="flex justify-center items-center h-screen w-screen bg-navy-900 dark:bg-gray-800 text-white  snap-start">
+          <AboutSection />
         </section>
-      </div>
+      </m.div>
     </div>
   );
 }

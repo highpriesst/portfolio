@@ -20,21 +20,6 @@ export default function Main() {
           className="flex justify-center items-center h-screen w-screen dark:bg-navy-900 text-fire-800 snap-start">
           <Home />
         </m.section>
-        <m.section
-          id="projects"
-          className="flex justify-center items-center h-screen w-screen  dark:bg-navy-900 text-fire-800  snap-start">
-          <Projects />
-        </m.section>
-        <m.section
-          id="about"
-          className="flex justify-center items-center h-screen w-screen  dark:bg-navy-900 text-fire-800  snap-start">
-          <About />
-        </m.section>
-        <m.section
-          id="contact"
-          className="flex justify-center items-center h-screen w-screen  dark:bg-navy-900 text-fire-800 snap-start">
-          <Contact />
-        </m.section>
       </m.div>
     </div>
   );
