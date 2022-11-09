@@ -8,10 +8,8 @@ function About() {
       <Head>
         <title>About</title>
       </Head>
-      <m.div>
-        <section className="flex justify-center items-center h-screen w-screen bg-navy-900 dark:bg-gray-800 text-white  snap-start">
-          <AboutSection />
-        </section>
+      <m.div className="flex justify-center items-center h-screen w-screen bg-navy-900 text-white  snap-start">
+        <AboutSection />
       </m.div>
     </div>
   );
