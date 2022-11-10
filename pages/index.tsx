@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
-import { useState } from "react";
-import { Home, Projects, About, Contact } from "../components";
+import { Home } from "../components";
 import { motion as m } from "framer-motion";
 
 // import { motion, useScroll } from "framer-motion";
@@ -14,10 +12,10 @@ export default function Main() {
         <title>Ertan Mutlu</title>
       </Head>
 
-      <m.div className="snap-y snap-mandatory overflow-scroll h-screen w-screen bg-navy-900 font-vogaMedium scroll-smooth">
+      <m.div className="sm:overflow-scroll bg-navy-900 font-vogaMedium scroll-smooth">
         <m.section
           id="home"
-          className="flex justify-center items-center h-screen w-screen dark:bg-navy-900 text-fire-800 snap-start">
+          className="sm:flex sm:justify-center sm:items-center sm:h-screen sm:w-screen dark:bg-navy-900 text-fire-800 snap-start">
           <Home />
         </m.section>
       </m.div>
