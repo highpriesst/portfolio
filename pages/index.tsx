@@ -12,10 +12,10 @@ export default function Main() {
         <title>Ertan Mutlu</title>
       </Head>
 
-      <m.div className="sm:overflow-scroll bg-navy-900 font-vogaMedium scroll-smooth">
+      <m.div className="md:overflow-scroll bg-navy-900 h-screen font-vogaMedium scroll-smooth">
         <m.section
           id="home"
-          className="sm:flex sm:justify-center sm:items-center sm:h-screen sm:w-screen dark:bg-navy-900 text-fire-800 snap-start">
+          className="md:flex md:justify-center md:items-center md:h-screen md:w-screen bg-navy-900 text-fire-800 snap-start">
           <Home />
         </m.section>
       </m.div>

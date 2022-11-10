@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { motion as m } from "framer-motion";
-import AboutSection from "../../components/sections/aboutSection";
+import AboutSection from "../../components/sections/about/aboutSection";
 
 function About() {
   return (
