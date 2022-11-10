@@ -12,9 +12,9 @@ const spotify = {
 
 function homeSection() {
   return (
-    <div className="flex flex-col h-screen sm:flex lg:justify-between justify-evenly">
+    <div className="flex flex-col items-center md:flex-row h-auto md:flex md:justify-between justify-evenly">
       <motion.section
-        className="sm:flex sm:flex-row md:flex md:justify-center sm:items-center lg:h-screen md:w-auto lg:mr-64 bg-navy text-white lg:ml-10 sm:snap-start "
+        className="flex md:flex-row md:flex md:justify-center md:items-center md:h-screen w-auto lg:mr-48 bg-navy text-white lg:ml-10 sm:snap-start "
         initial={{ x: "-100vw" }}
         animate={{ x: 0 }}
         transition={{ type: "spring", duration: 1, bounce: 0.3 }}>
@@ -27,7 +27,7 @@ function homeSection() {
           </span>
         </div>
       </motion.section>
-      <div className="p-10 sm:flex sm:p-5">
+      <div className="md:flex md:justify-center md:items-center p-10 sm:flex sm:p-5">
         <div className="">
           <Card
             id={spotify.id}

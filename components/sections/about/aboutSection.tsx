@@ -12,13 +12,13 @@ const AboutSection = () => {
         <h1>Bio</h1>
         <div className="w-[500px] h-[500px]">
           <p>
-            Hello!My name is Ertan. Web developer based in Sofia with a passion
-            for building digital stuff I want. My interest in web development
-            started back in Tumblr days. When not online, I play with my olympus
-            om m10 II and my brush. Here are a few technologies Ive been working
-            with recently:
+            Hello!My name is Ertan.{" "}
+            <span className=" text-shinyRed-500">Web developer</span> based in
+            Sofia with a passion for building digital stuff I want. When not
+            online, I play with my Olympus M10 II and my brush. Here are a few
+            technologies Ive been working with recently:
           </p>
-          <ul className="md:grid md:grid-cols-2 text-inherit lg:items-center lg:justify-center">
+          <ul className="md:grid md:grid-cols-2 text-inherit lg:items-center lg:justify-center content-['=>']">
             <li>Javascript (ES6+)</li>
             <li>React</li>
             <li>Typescript</li>
