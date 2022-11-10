@@ -14,12 +14,12 @@ const PComponent: React.FC<Cards> = ({
 }: Cards) => {
   return (
     <m.div
-      className="relative flex min-h-screen flex-col justify-center"
+      className="sm:relative flex h-auto flex-col justify-center"
       id={id}
       initial={{ x: "-100vw" }}
       animate={{ x: 0 }}
       transition={{ type: "spring", duration: 1, bounce: 0.3 }}>
-      <div className=" flex w-auto flex-col justify-center item-center cursor-pointer rounded-2xl border border-paleGray-100">
+      <div className="flex w-auto flex-col justify-center item-center cursor-pointer rounded-2xl border border-paleGray-100">
         <Image
           className="rounded-t-2xl object-cover object-center"
           src={image}
