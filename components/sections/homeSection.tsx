@@ -12,7 +12,7 @@ const spotify = {
 
 function homeSection() {
   return (
-    <div className="flex flex-col items-center md:flex-row h-auto md:flex md:justify-between justify-evenly">
+    <div className="flex flex-col items-center md:flex-row h-auto w-auto md:flex md:justify-between justify-evenly pb-10 pr-5 pl-5 sm:p-0">
       <motion.section
         className="flex md:flex-row md:flex md:justify-center md:items-center md:h-screen w-auto lg:mr-48 bg-navy text-white lg:ml-10 sm:snap-start "
         initial={{ x: "-100vw" }}
@@ -27,8 +27,8 @@ function homeSection() {
           </span>
         </div>
       </motion.section>
-      <div className="md:flex md:justify-center md:items-center p-10 sm:flex sm:p-5">
-        <div className="">
+      <div className="md:flex md:justify-center md:items-center sm:flex">
+        <div>
           <Card
             id={spotify.id}
             image={spotify.image}

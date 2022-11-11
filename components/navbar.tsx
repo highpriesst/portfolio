@@ -20,7 +20,7 @@ export const Navbar = () => {
       <div className="flex justify-center item-center bg-navy-900 overflow-hidden font-vogaBold">
         <nav
           className={`flex items-center ${
-            active ? "flex-wrap" : "justify-between"
+            active ? "flex-wrap" : "justify-between w-full"
           } p-2 justify-between rounded-b-2xl lg:rounded-b-2xl w-full text-shinyRed-500`}>
           <Link href="/">
             <p
@@ -56,7 +56,7 @@ export const Navbar = () => {
               className={`lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto`}>
               <Link href="/about">
                 <p
-                  className={`flex font-bold lg:inline-flex lg:w-auto w-full px-3 py-2 rounded-2xl text-fire items-center justify-center
+                  className={`flex font-bold lg:inline-flex lg:w-auto w-full px-3 py-2 rounded-2xl text-fire items-center justify-center cursor-pointer
                     ${
                       active
                         ? "hover:underline w-max mx-auto rounded-2xl"
@@ -75,7 +75,7 @@ export const Navbar = () => {
               </Link>
               <Link href="/contact">
                 <p
-                  className={`flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded-2xl text-fire font-bold items-center justify-center
+                  className={`flex lg:inline-flex lg:w-auto w-full px-3 py-2 rounded-2xl text-fire font-bold items-center justify-center cursor-pointer
                   ${
                     active
                       ? "hover:underline w-max mx-auto rounded-2xl"
