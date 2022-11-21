@@ -13,4 +13,4 @@ Vite react-ts project
 
 - [ ] Frontend : React, All other necessary js libs independent front end client!
 - [ ] Backend : NodeJS, Hibernate(EF Alternative) + socketio(alternative to signalr) -node-ts
-- [ ] DB : MongoDB, NoSQL
+- [ ] DB : Mongoose NoSQL, authjs?
