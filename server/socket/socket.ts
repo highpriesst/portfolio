@@ -3,6 +3,7 @@ import logger from "../src/utils/logger";
 
 const EVENTS = {
   connection: "connection",
+  disconnected: "disconnected",
 };
 
 function socket({ io }: { io: Server }) {
@@ -12,7 +13,7 @@ function socket({ io }: { io: Server }) {
     logger.info(`User ${socket.id}`);
   });
 
-  io.on("disconnected", () => {
+  io.on(EVENTS.disconnected, () => {
     logger.info("Disconnected");
   });
 }
