@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
@@ -9,14 +10,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <footer className="footer">
-        <p target="_blank" rel="noopener noreferrer">
-          Powered by{" "}
-          <span>
-            <a href="http://github.com/highpriesst">Highpriesst</a>
-          </span>
-        </p>
-      </footer>
+      <div className="flex flex-col h-screen justify-between">
+        <div>
+          <Navbar />
+        </div>
+
+        <div className="main-content bg-red-300 mb-auto">content</div>
+
+        <footer className="footer flex w-full static bottom-0 justify-center ">
+          <p target="_blank" rel="noopener noreferrer">
+            Made by &nbsp;
+            <span>
+              <a href="http://github.com/highpriesst">Highpriesst</a>
+            </span>
+          </p>
+        </footer>
+      </div>
     </div>
   );
 }
