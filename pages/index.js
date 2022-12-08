@@ -11,9 +11,7 @@ export default function Home() {
       </Head>
 
       <div className="flex flex-col h-screen justify-between">
-        <div>
-          <Navbar />
-        </div>
+        <Navbar />
 
         <div className="main-content bg-red-300 mb-auto">content</div>
 
