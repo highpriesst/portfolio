@@ -1,6 +1,6 @@
 ## TODO:
 
-    - [] - Fix darkmode
+    - [] - Fix darkmode - with next-themes mixed with tailwind
     - [] - Find color palette, pale colors
 
 ## Getting Started
