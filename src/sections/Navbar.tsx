@@ -4,7 +4,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="outher_div border-2 border-black flex justify-between items-center p-3 md:p-5 [&>*]:cursor-pointer bg-[#00203FFF] [&>*]:text-[#ADEFD1FF]">
+    <div className="outher_div border-black flex justify-between items-center p-3 md:p-5 [&>*]:cursor-pointer bg-[#00203FFF] [&>*]:text-[#ADEFD1FF]">
       <div>
         <span>Ertan</span>
       </div>
