@@ -2,7 +2,7 @@ import Navbar from "./sections/Navbar";
 
 function App() {
   return (
-    <div className="h-screen bg-red-400">
+    <div className="h-screen bg-[#00203FFF]">
       <div>
         <Navbar />
       </div>
