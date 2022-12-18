@@ -6,4 +6,6 @@
 
 - [ ] Start with creating sections for main page
   - [ ] : Navbar
+    - Started with navbar, done with outline mostly, will decide on color palette and React Router later.
   - [ ] : Footer
+    - Will try to finish at 19th evening, again mostly outline.
