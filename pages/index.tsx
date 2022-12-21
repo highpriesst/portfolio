@@ -1,4 +1,10 @@
-import Navbar from "../sections/Navbar";
+import Landing from "../sections/Landing";
+
+Landing;
 export default function Home() {
-  return <div className="h-screen bg-red-500"></div>;
+  return (
+    <div>
+      <Landing />
+    </div>
+  );
 }
