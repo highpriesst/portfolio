@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-color {
+  background: linear-gradient(to right, #00f, #663399);
+  display: inline-block;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-color-dark {
+  background: linear-gradient(to right, rgb(91, 91, 239), #995ad7);
+  display: inline-block;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
