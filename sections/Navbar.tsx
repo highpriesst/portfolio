@@ -4,7 +4,7 @@ import ThemeToggler from "../components/ThemeToggler";
 
 function Navbar() {
   return (
-    <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 sticky">
+    <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 w-full z-20 top-0 left-0 sticky">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <Link href="/" className="flex items-center">
           <span className="self-center text-xl font-semibold whitespace-nowrap text-color-dark">
@@ -20,6 +20,7 @@ function Navbar() {
             aria-controls="navbar-sticky"
             aria-expanded="false">
             <span className="sr-only">Open main menu</span>
+            {/* what is sr only */}
             <svg
               className="w-6 h-6"
               aria-hidden="true"
