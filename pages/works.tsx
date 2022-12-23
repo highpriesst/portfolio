@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Works() {
   return (
-    <div className="h-screen flex flex-coljustify-center items-center indent-8">
+    <div className="h-screen flex flex-coljustify-center items-center indent-8 bg-white dark:bg-gray-900">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
         veniam minima assumenda exercitationem quia ducimus? Adipisci architecto
