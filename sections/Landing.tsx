@@ -1,3 +1,4 @@
+import LandingPageVideo from "../components/LandingPageVideo";
 function Landing() {
   const skills = [
     "JavaScript (ES6+)",
@@ -7,11 +8,13 @@ function Landing() {
     "Node.js",
     "Next.js",
   ];
+
+  // <div className="h-screen flex from-blue-600 to-indigo-400 bg-white dark:bg-gray-900">
+  //       Landing section
+  //     </div>
   return (
     <div className="bg-white dark:bg-gray-900 font-mono">
-      <div className="h-screen flex from-blue-600 to-indigo-400 bg-white dark:bg-gray-900">
-        Landing section
-      </div>
+      <LandingPageVideo />
       <div className="h-screen flex justify-center items-center bg-white dark:bg-gray-900">
         <div className="flex flex-col max-w-[800px] h-[400px] tracking-widest">
           <p>
