@@ -20,11 +20,9 @@ const LandingPageWithVideo = () => {
       </div>
 
       {/* button scroll down icon and transparent blur animation is looped up and down */}
-      <m.div className="relative z-9 flex flex-col items-center justify-center h-screen px-4 py-12 text-center text-white">
+      <m.div className="snap-start relative z-9 flex flex-col items-center justify-center h-screen px-4 py-12 text-center text-white">
         <m.h1 className="text-3xl">Welcome!</m.h1>
-        <button className="px-6 py-3 rounded-full bg-white text-gray-900 font-bold hover:bg-gray-200 focus:outline-none focus:shadow-outline-blue active:bg-gray-800">
-          Scrool down
-        </button>
+        <ScrollDownButton />
       </m.div>
 
       <style jsx>{`

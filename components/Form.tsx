@@ -38,7 +38,7 @@ function Form() {
       </div>
       <button
         type="submit"
-        className="py-3 px-5 text-sm font-medium text-center rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+        className="py-3 px-5 text-sm font-medium text-center rounded-lg bg-gray-50 sm:w-fit border bordar-gray-300 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-gray-700 dark:hover:bg-gray-800 dark:focus:ring-gray-800 dark:border-gray-700">
         Send message
       </button>
     </form>
