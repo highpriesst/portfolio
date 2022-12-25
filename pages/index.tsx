@@ -1,10 +1,9 @@
-import Landing from "../sections/Landing";
+import Main from "../sections/Main";
 
-Landing;
 export default function Home() {
   return (
     <div>
-      <Landing />
+      <Main />
     </div>
   );
 }
