@@ -14,7 +14,7 @@ const LandingPageWithVideo = () => {
           autoPlay
           loop
           muted
-          className="absolute inset-0 object-cover h-screen xl:h-auto">
+          className="absolute inset-0 object-cover h-screen">
           <source src="assests/cyberpunk-video.mp4" type="video/mp4" />
         </video>
       </div>

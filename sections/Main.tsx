@@ -15,7 +15,7 @@ import Works from "./Works";
 // }
 function Landing() {
   return (
-    <div className="bg-white dark:bg-gray-900 snap-y snap-mandatory h-screen overflow-scroll [&>*]:snap-start">
+    <div className="bg-white dark:bg-gray-900 snap-y snap-mandatory h-screen overflow-scroll  [&>*]:h-screen [&>*]:snap-start ">
       <LandingPageWithVideo />
       <AboutMe />
       <Works />
