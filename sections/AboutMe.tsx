@@ -13,7 +13,7 @@ function AboutMe() {
     <div className="h-screen flex justify-center items-center bg-white dark:bg-gray-900">
       <div className="flex flex-col max-w-[800px] h-[400px] tracking-widest">
         <p>
-          <b>Hello!</b>I am a
+          <b>Hello! </b>I&#39;m a
           <span className="text-color-dark font-bold pl-1 pr-1">
             front-end developer
           </span>
@@ -22,18 +22,21 @@ function AboutMe() {
           in 2014 when I decided to try editing custom Tumblr themes — turns out
           hacking together a custom reblog button taught me a lot about HTML
           &amp; CSS! With a strong foundation in HTML, CSS, and JavaScript, and
-          also React/Typescript.I bring ideas to life through&#160;
-          <b>clean and efficient code</b>. I have a keen eye for design and am
-          always striving to stay up-to-date on the latest web development
-          trends and techniques. I am dedicated to delivering{" "}
-          <b>high-quality</b> work and am committed to exceeding client
-          expectations. Thank you for considering me for your front-end
-          development needs. I am excited to work with you and bring your ideas
-          to life.
+          also <b className="text-color-dark">React/Typescript</b>.I bring ideas
+          to life through&#160;
+          <b className="text-color-dark">clean and efficient code</b>. I have a
+          keen eye for design and am always striving to stay up-to-date on the
+          latest web development trends and techniques. I am dedicated to
+          delivering <br />
+          <b className="text-color-dark">high-quality</b> work and am committed
+          to exceeding client&#39;s expectations. Thank you for considering me
+          for your front-end development needs. I&#39;m{" "}
+          <b className="text-color-dark">excited</b> to work with you and bring
+          your ideas to life.
         </p>
 
-        <p className="mt-5 flex justify-center items-center">
-          Here are a few technologies Ive been working with recently:
+        <p className="mt-5 flex justify-start items-center">
+          Here are a few technologies I&#39;ve been working with recently:
         </p>
         <ul className="grid grid-cols-3 mt-5">
           {skills &&
