@@ -1,5 +1,4 @@
 import Head from "next/head";
-import ScrollDownButton from "./ScrollDownButton";
 import { motion as m } from "framer-motion";
 import ArrowDownCircleIcon from "@heroicons/react/24/outline/ArrowDownCircleIcon";
 
