@@ -15,3 +15,8 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@font-face {
+  font-family: "Flaviotte";
+  src: url("../public/fonts/Flaviotte Font/OpenType-PS/Flaviotte.otf");
+}

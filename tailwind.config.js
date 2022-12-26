@@ -11,6 +11,9 @@ module.exports = {
   },
   plugins: [],
   extend: {
+    fontFamily: {
+      flaviotte: ["flaviotte"],
+    },
     colors: {
       primary: {
         50: "#eff6ff",
