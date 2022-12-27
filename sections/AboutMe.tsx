@@ -1,17 +1,10 @@
 import React from "react";
+import { skills } from "../utils/skills";
 
 function AboutMe() {
-  const skills = [
-    "JavaScript (ES6+)",
-    "TypeScript",
-    "React",
-    "TailwindCSS",
-    "Node.js",
-    "Next.js",
-  ];
   return (
-    <div className="h-screen flex justify-center items-center bg-white dark:bg-gray-900">
-      <div className="flex flex-col max-w-[800px] h-[400px] tracking-widest">
+    <div className="h-screen flex justify-center items-center bg-white dark:bg-gray-900 overflow-hidden pl-5 pr-5">
+      <div className="flex flex-col max-w-[700px] tracking-widest">
         <p>
           <b>Hello! </b>I&#39;m a
           <span className="text-color-dark font-bold pl-1 pr-1">
