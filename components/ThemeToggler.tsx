@@ -13,9 +13,9 @@ const ThemeToggler = () => {
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
       aria-label="Toggle Dark Mode">
       {theme === "light" ? (
-        <MoonIcon className="text-gray-200 w-5 h-5" />
+        <MoonIcon className="text-gray-100 w-5 h-5" />
       ) : (
-        <SunIcon className="text-white w-5 h-5" />
+        <SunIcon className="text-white w-5 h-5 " />
       )}
     </button>
   );
