@@ -1,4 +1,5 @@
 import Form from "../components/Form";
+import Footer from "./Footer";
 function contact() {
   return (
     <section className="bg-white dark:bg-gray-900 h-screen">
@@ -13,6 +14,7 @@ function contact() {
         </p>
         <Form />
       </div>
+      <Footer />
     </section>
   );
 }
