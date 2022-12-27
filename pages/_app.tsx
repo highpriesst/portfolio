@@ -10,10 +10,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider enableSystem={true} attribute="class">
       <Navbar_v2 />
-      <m.div className="overflow-hidden">
-        <Component {...pageProps} />
-      </m.div>
-      <Footer />
+
+      <Component {...pageProps} className="overflow-hidden" />
     </ThemeProvider>
   );
 }
