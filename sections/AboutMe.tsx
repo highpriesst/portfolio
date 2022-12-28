@@ -1,12 +1,11 @@
 import Image from "next/image";
 import { motion as m } from "framer-motion";
-// import { skills } from "../utils/skills";
 import profile_picture from "../public/assests/profile_pic.png";
 
 function AboutMe() {
   return (
-    <m.div className="flex flex-col w-full justify-center h-auto p-10 bg-gray-800">
-      <div className="flex flex-row mb-8 bg-gray-700 p-2">
+    <m.div className="flex flex-col w-full justify-center h-auto p-10">
+      <div className="flex flex-row mb-8 p-2">
         <m.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -19,7 +18,7 @@ function AboutMe() {
           />
         </m.div>
         <m.div
-          className="[&>*]:mb-3"
+          className="[&>*]:mb-2"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 1.2 }}
@@ -31,7 +30,7 @@ function AboutMe() {
 
       <div className="[&>*]:mb-3">
         <h1>About</h1>
-        <p>Text</p>
+        <p className="text-gray-500">Text</p>
       </div>
     </m.div>
   );
