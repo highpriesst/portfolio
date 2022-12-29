@@ -2,7 +2,7 @@ import SingleLink from "../components/SingleLink";
 
 function Links() {
   return (
-    <div className="text-white flex flex-col p-8 mb-2 w-full">
+    <div className="text-black flex flex-col p-5 w-full dark:text-white">
       <SingleLink
         name="github"
         link={"https://github.com/highpriesst"}
@@ -10,7 +10,7 @@ function Links() {
       />
       <SingleLink
         name="linkedin"
-        link={"https://linkedin.com/highpriesst"}
+        link={"https://linkedin.com/in/highpriesst"}
         nickname={"highpriesst"}
       />
       <SingleLink

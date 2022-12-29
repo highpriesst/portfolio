@@ -4,7 +4,7 @@ import profile_picture from "../public/assests/profile_pic.png";
 
 function AboutMe() {
   return (
-    <m.div className="flex flex-col w-full justify-center h-auto p-10">
+    <m.div className="flex flex-col w-full justify-center h-auto p-5">
       <div className="flex flex-row mb-8 p-2">
         <m.div
           initial={{ opacity: 0 }}
@@ -23,14 +23,22 @@ function AboutMe() {
           animate={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 1.2 }}
           exit={{ opacity: 0 }}>
-          <h1>Ertan Mutlu</h1>
+          <b>
+            <h1>Ertan Mutlu</h1>
+          </b>
           <span className="text-gray-500">Web developer, Artist</span>
         </m.div>
       </div>
 
       <div className="[&>*]:mb-3">
-        <h1>About</h1>
-        <p className="text-gray-500">Text</p>
+        <b>
+          <h1>About</h1>
+        </b>
+        <p className="text-gray-500">
+          Hello, I&#39;m Ertan. I enjoy building dynamic, minimalist, creative
+          websites from start to finish.Focused on developing constantly growing
+          and improving based on user metrics.
+        </p>
       </div>
     </m.div>
   );
