@@ -3,18 +3,19 @@ import SingleLink from "../components/SingleLink";
 function Links() {
   return (
     <div className="text-black flex flex-col p-5 w-full dark:text-white">
+      <h1 className="mb-3">Links</h1>
       <SingleLink
-        name="github"
+        name="Github"
         link={"https://github.com/highpriesst"}
         nickname={"highpriesst"}
       />
       <SingleLink
-        name="linkedin"
+        name="Linkedin"
         link={"https://linkedin.com/in/highpriesst"}
         nickname={"highpriesst"}
       />
       <SingleLink
-        name="twitter"
+        name="Twitter"
         link={"https://twitter.com/highpriesst"}
         nickname={"highpriesst"}
       />
