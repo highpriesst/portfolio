@@ -17,16 +17,8 @@ function Navbar() {
       ) : (
         <Image src={logo_white} className="w-20 h-15 mr-4" alt="logo" />
       )}
-      <button
-        className="w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-300 focus:outline-none"
-        onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-        aria-label="Toggle Dark Mode">
-        {theme === "light" ? (
-          <MoonIcon className="text-gray-800 w-5 h-5">Dark</MoonIcon>
-        ) : (
-          <SunIcon className="text-white w-5 h-5 ">Light</SunIcon>
-        )}
-      </button>
+      {/* this goes to mail via gmail */}
+      <p className="box">Want to chat?</p>
     </div>
   );
 }
