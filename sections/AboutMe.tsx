@@ -25,7 +25,7 @@ function AboutMe() {
         <b>
           <h1>About</h1>
         </b>
-        <p className="text-gray-500 lg:p-8 lg:flex lg:text-left ">
+        <p className="text-gray-500 lg:m-2 lg:flex lg:text-justify ">
           Hello, I&#39;m Ertan. I enjoy building dynamic, minimalist, creative
           websites from start to finish.Focused on developing constantly growing
           and improving based on user metrics.
