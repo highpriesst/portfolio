@@ -4,8 +4,8 @@ import profile_picture from "../public/assests/profile_pic.png";
 
 function AboutMe() {
   return (
-    <m.div className="flex flex-col w-full justify-center h-auto p-5">
-      <div className="flex flex-row mb-8 p-2">
+    <m.div className="flex flex-col w-full justify-center lg:items-center h-auto p-5 md:pl-16">
+      <div className="flex flex-row mb-8 p-2 ">
         <m.div exit={{ opacity: 0 }}>
           <Image
             src={profile_picture}
@@ -21,11 +21,11 @@ function AboutMe() {
         </m.div>
       </div>
 
-      <div className="[&>*]:mb-3">
+      <div className="[&>*]:mb-3 lg:flex lg:items-center lg:justify-center lg:flex-col lg:w-1/2">
         <b>
           <h1>About</h1>
         </b>
-        <p className="text-gray-500">
+        <p className="text-gray-500 lg:p-8 lg:flex lg:text-left ">
           Hello, I&#39;m Ertan. I enjoy building dynamic, minimalist, creative
           websites from start to finish.Focused on developing constantly growing
           and improving based on user metrics.
