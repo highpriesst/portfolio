@@ -10,7 +10,7 @@ export default function Home() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ ease: "easeOut", duration: 1.2 }}
-      className="flex flex-col items-center h-screen border border-gray-700 ">
+      className="flex flex-col items-center h-screen lg:absolute lg:top-1/2 lg:-translate-y-1/2 ">
       <Navbar />
       <AboutMe />
       <Work />
