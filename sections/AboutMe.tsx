@@ -4,18 +4,18 @@ import profile_picture from "../public/assests/profile_pic.png";
 
 function AboutMe() {
   return (
-    <m.div className="flex flex-col w-full justify-center lg:items-center h-auto p-5 md:pl-16">
-      <div className="flex flex-row mb-8 p-2 ">
-        <m.div exit={{ opacity: 0 }}>
+    <m.div className="flex flex-col w-full justify-center lg:items-center h-auto p-5 md:pl-10 ">
+      <div className="flex flex-row mb-8 p-1 lg:w-[540px] lg:justify-center">
+        <m.div exit={{ opacity: 0 }} className="lg:flex pr-2">
           <Image
             src={profile_picture}
             alt="profile_picture"
             className="object-cover w-16 h-16 rounded-full mr-4"
           />
         </m.div>
-        <m.div className="[&>*]:mb-2">
+        <m.div className="[&>*]:mb-2 lg:text-justify">
           <b>
-            <h1>Ertan Mutlu</h1>
+            <h1 className="lg:mb-2 lg:pl-2">Ertan Mutlu</h1>
           </b>
           <span className="text-gray-500">Web developer, Artist</span>
         </m.div>
