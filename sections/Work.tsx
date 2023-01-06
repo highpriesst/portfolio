@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Work() {
   return (
-    <div className="w-full flex h-auto flex-col p-5 md:pl-16 [&>*]:mb-3 lg:w-1/2 lg:p-8">
+    <div className="w-full flex h-auto flex-col p-5 md:pl-10 [&>*]:mb-3 lg:w-1/2 lg:p-8">
       <h1 className="font-bold">
         <Link href="/allWorks">Work</Link>
       </h1>
