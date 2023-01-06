@@ -9,7 +9,7 @@ function SingleLink({
   nickname,
 }: InferProps<typeof SingleLink.propTypes>) {
   return (
-    <div className="flex flex-col [&>*]:mb-2">
+    <div className="flex flex-row [&>*]:mb-2 gap-3">
       <span className="text-gray-800 dark:text-gray-500">{name}</span>
       <div className="flex items-center gap-1 group transition duration-300">
         <a className="font-medium dark:font-normal" href={link}>

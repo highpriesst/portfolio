@@ -20,9 +20,13 @@ function Navbar() {
       ) : (
         <Image src={logo_white} className="w-20 h-15 ml-4" alt="logo" />
       )}
-      <div className="flex flex-col items-center">
-        <EnvelopeIcon className="w-8 h-8 bg-transparent text-gray-300 pb-1" />
-        <span className="text-gray-500 text-sm">Send mail</span>
+      <div className="flex flex-col">
+        <a
+          className="email-link text-sm text-gray-600 flex flex-col items-center"
+          href={`mailto:ertansofia@gmail.com`}>
+          <EnvelopeIcon className="w-8 h-8 bg-transparent text-gray-300 pb-1" />
+          Say Hello
+        </a>
       </div>
     </div>
   );
