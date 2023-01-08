@@ -17,7 +17,7 @@ function AboutMe() {
           <b>
             <h1 className="lg:mb-2 lg:pl-2">Ertan Mutlu</h1>
           </b>
-          <span className="text-gray-500">Web developer, Artist</span>
+          <span className="text-gray-500">Web developer|Artist</span>
         </m.div>
       </div>
 
