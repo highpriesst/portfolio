@@ -7,9 +7,9 @@ export const skills = [
   "Next.js",
 ];
 
-//Remain unused, saved for later?
-// export const links = new Map<string, string>([
-//   ["github", "https://www.github.com/highpriesst"],
-//   ["linkedin", "https://www.linkedin.com/highpriesst"],
-//   ["twitter", "https://www.twitter.com/highpriesst"],
-// ]);
+export const works = {
+  year: "2023",
+  title: "Connect App",
+  desc: "Simple real-time chat application for people who wanna stay anonymous.",
+  tech: ["Nextjs", "SocketIO", "TypeScript", "TailwindCSS"],
+};
