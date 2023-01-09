@@ -3,6 +3,7 @@ import AboutMe from "../sections/AboutMe";
 import Work from "../sections/Work";
 import Links from "../sections/Links";
 import { motion as m } from "framer-motion";
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -11,6 +12,9 @@ export default function Home() {
       animate={{ opacity: 1 }}
       transition={{ ease: "easeOut", duration: 1.2 }}
       className="flex flex-col items-center h-screen">
+      <Head>
+        <title>Highpriesst</title>
+      </Head>
       <Navbar />
       <AboutMe />
       <Work />
