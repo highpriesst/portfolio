@@ -1,4 +1,4 @@
-import { InferProps, string } from "prop-types";
+import { InferProps } from "prop-types";
 import PropTypes from "prop-types";
 
 import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
