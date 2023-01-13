@@ -22,9 +22,9 @@ function Navbar() {
       )}
       <div className="flex flex-col">
         <a
-          className="email-link text-sm text-gray-600 flex flex-col items-center"
+          className="email-link text-sm text-[#4c566a] flex flex-col items-center"
           href={`mailto:ertansofia@gmail.com`}>
-          <EnvelopeIcon className="w-8 h-8 bg-transparent text-gray-300 pb-1" />
+          <EnvelopeIcon className="w-8 h-8 bg-transparent text-[#d8dee9] pb-1" />
           Say Hello
         </a>
       </div>

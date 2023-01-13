@@ -17,7 +17,7 @@ function AboutMe() {
           <b>
             <h1 className="lg:mb-2 lg:pl-2">Ertan Mutlu</h1>
           </b>
-          <span className="text-gray-500">Web developer|Artist</span>
+          <span className="">Web developer|Artist</span>
         </m.div>
       </div>
 
@@ -25,7 +25,7 @@ function AboutMe() {
         <b>
           <h1>About</h1>
         </b>
-        <p className="text-gray-500 lg:m-2 lg:flex lg:text-justify ">
+        <p className=" lg:m-2 lg:flex lg:text-justify ">
           Hello, I&#39;m Ertan. I enjoy building dynamic, minimalist, creative
           websites from start to finish.Focused on developing constantly growing
           and improving based on user metrics.

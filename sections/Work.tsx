@@ -12,7 +12,7 @@ function Work() {
         </h1>
       </div>
       <div className="">
-        <p className="text-gray-500">Coming soon...</p>
+        <p className="">Coming soon...</p>
         {/* <WorksComponent
           year={works.year}
           title={works.title}

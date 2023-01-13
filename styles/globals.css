@@ -4,24 +4,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap");
 
-.text-color {
-  background: linear-gradient(to right, #00f, #663399);
-  display: inline-block;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.text-color-dark {
-  background: linear-gradient(to right, rgb(91, 91, 239), #995ad7);
-  display: inline-block;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 @font-face {
   font-family: "Flaviotte";
   src: url("../public/fonts/Flaviotte Font/OpenType-PS/Flaviotte.otf");
 }
+
+/* black: "#000000",
+      ink: "#062F4F",
+      embers: "#882601", */
 
 body {
   font-family: JetBrains Mono, monospace;
@@ -29,69 +19,14 @@ body {
   width: 100vw;
 }
 
-.greeting-text-bg {
-  font-size: 2vmin;
-  font-family: JetBrains Mono, monospace;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+h1 {
+  color: #8fbcbb;
 }
 
-@keyframes move {
-  25% {
-    transform: translatey(-5.8vmin);
-    opacity: 1;
-  }
-  50% {
-    transform: translatey(-11vmin);
-  }
-  75% {
-    transform: translatey(-16.5vmin);
-  }
+p {
+  color: #4c566a;
 }
 
-.animate-move {
-  animation: move 4s infinite;
-}
-
-.greeting {
-  display: relative;
-  top: 8.6vmin;
-  animation: white-out 5s infinite;
-}
-
-.closure::after {
-  content: "";
-  position: absolute;
-  height: 25vmin;
-  width: 40vmin;
-  background: red;
-  transform: translate(-45vmin, -24.5vmin);
-}
-
-.closure::before {
-  content: "";
-  position: absolute;
-  height: 25vmin;
-  width: 40vmin;
-  background: #282c34;
-  transform: translate(-40vmin, 5vmin);
-}
-
-.en {
-  color: #fa8231;
-}
-
-.es {
-  color: white;
-}
-
-.de {
-  color: #c678dd;
-}
-
-.it {
-  color: #a9b0bd;
+span {
+  color: #4c566a;
 }
