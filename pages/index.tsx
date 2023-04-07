@@ -11,7 +11,7 @@ export default function Home() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ ease: "easeOut", duration: 1.2 }}
-      className="flex flex-col items-center h-screen bg-black]">
+      className="flex flex-col items-center h-screen">
       <Head>
         <title>Highpriesst</title>
       </Head>
