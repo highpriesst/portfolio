@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { motion as m } from "framer-motion";
 import profile_picture from "../public/assests/profile_pic.png";
+import { skills } from "../utils/config";
 
 function AboutMe() {
   return (
@@ -17,7 +18,7 @@ function AboutMe() {
           <b>
             <h1 className="lg:mb-2 lg:pl-2">Ertan Mutlu</h1>
           </b>
-          <span className="">Web developer|Artist</span>
+          <span className="">Web developer | Artist</span>
         </m.div>
       </div>
 
@@ -29,6 +30,11 @@ function AboutMe() {
           Hello, I&#39;m Ertan. I enjoy building dynamic, minimalist, creative
           websites from start to finish.Focused on developing constantly growing
           and improving based on user metrics.
+        </p>
+        <p className="lg:flex lg:gap-3 [&>*]:text-[#8fbcbb] grid grid-cols-2 gap-5 md:grid md:grid-cols-3 md:gap-5 lg:text-sm lg:max-w-sm lg:mr-40">
+          {skills.map((skill, index) => (
+            <span key={index}>{skill}</span>
+          ))}
         </p>
       </div>
     </m.div>
