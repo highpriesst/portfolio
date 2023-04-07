@@ -12,20 +12,21 @@ function Navbar() {
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
 
-  //When this clicked, this shall take you to the email part of the computer whatever.
   return (
-    <div className="flex w-full p-5 m-5 justify-around items-center">
-      {theme === "light" ? (
-        <Image src={logo_dark} className="w-20 h-15 ml-4" alt="logo" />
-      ) : (
-        <Image src={logo_white} className="w-20 h-15 ml-4" alt="logo" />
-      )}
-      <div className="flex flex-col">
+    <div className="flex items-center w-full p-5 m-5 justify-around sm:max-w-full ml-46">
+      <div className="flex items-center">
+        {theme === "light" ? (
+          <Image src={logo_dark} className="w-20 h-15 ml-4 mr-2" alt="logo" />
+        ) : (
+          <Image src={logo_white} className="w-20 h-15 ml-4 mr-2" alt="logo" />
+        )}
+      </div>
+      <div className="flex items-center ">
         <a
-          className="email-link text-sm text-[#4c566a] flex flex-col items-center"
+          className="email-link text-sm text-[#4c566a] flex items-center"
           href={`mailto:ertansofia@gmail.com`}>
-          <EnvelopeIcon className="w-8 h-8 bg-transparent text-[#d8dee9] pb-1" />
-          Say Hello
+          <EnvelopeIcon className="w-8 h-8 bg-transparent text-[#d8dee9] pb-1 mr-2" />
+          <span>Say Hello</span>
         </a>
       </div>
     </div>
