@@ -18,5 +18,5 @@ export const todoProject = {
   title: "Personal Todo Project",
   description:
     "Personal Todo project done with Typescript, React, Express and Mongodb.",
-  link: "https://www.github.com/highpriesst/simple-todo",
+  link: "https://www.github.com/highpriesst/personal-todo",
 };
