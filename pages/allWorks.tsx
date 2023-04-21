@@ -1,6 +1,11 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
-import { todoProject } from "../utils/config";
+import {
+  todoProject,
+  tracktailor,
+  connectApp,
+  weatherApp,
+} from "../utils/config";
 
 function AllWorks() {
   return (
@@ -10,6 +15,21 @@ function AllWorks() {
           title={todoProject.title}
           description={todoProject.description}
           link={todoProject.link}
+        />
+        <ProjectCard
+          title={tracktailor.title}
+          description={tracktailor.description}
+          link={tracktailor.link}
+        />
+        <ProjectCard
+          title={connectApp.title}
+          description={connectApp.description}
+          link={connectApp.link}
+        />
+        <ProjectCard
+          title={weatherApp.title}
+          description={weatherApp.description}
+          link={weatherApp.link}
         />
       </div>
     </div>
