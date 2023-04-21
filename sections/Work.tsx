@@ -1,7 +1,12 @@
 import Link from "next/link";
 import ProjectCard from "../components/ProjectCard";
 
-import { todoProject } from "../utils/config";
+import {
+  todoProject,
+  connectApp,
+  tracktailor,
+  weatherApp,
+} from "../utils/config";
 
 function Work() {
   return (
@@ -13,11 +18,26 @@ function Work() {
           </Link>
         </h1>
       </div>
-      <div className="">
+      <div className="grid grid-cols-2 gap-10">
         <ProjectCard
           title={todoProject.title}
           description={todoProject.description}
           link={todoProject.link}
+        />
+        <ProjectCard
+          title={connectApp.title}
+          description={connectApp.description}
+          link={connectApp.link}
+        />
+        <ProjectCard
+          title={tracktailor.title}
+          description={tracktailor.description}
+          link={tracktailor.link}
+        />
+        <ProjectCard
+          title={weatherApp.title}
+          description={weatherApp.description}
+          link={weatherApp.link}
         />
       </div>
     </div>
