@@ -17,27 +17,27 @@ export const connectAppProject = {
 export const todoProject = {
   title: "Personal Todo Project",
   description:
-    "Personal Todo project done with React, Typescript, Express and Mongodb. Tailwindcss",
+    "Stay organized with our powerful personal todo project. Built with React, Typescript, Express, and MongoDB, and styled with TailwindCss, managing your daily tasks has never been easier.",
   link: "https://www.github.com/highpriesst/personal-todo",
 };
 
 export const connectApp = {
   title: "Connect App",
   description:
-    "Chat application built with Next.js, Typescript, Express, Socket.io, TailwindCss",
+    "Experience seamless communication with our cutting-edge chat application. It's built with Next.js, Typescript, Express, Socket.io, and TailwindCss to ensure fast, secure, and user-friendly messaging",
   link: "https://github.com/highpriesst/connect-app",
 };
 
 export const tracktailor = {
   title: "Track Tailor",
   description:
-    "(NOT Finished) Small spotify clone to add songs to playlist or create new playlist. Next.js, Typescript, NextAuth, TailwindCss and Spotify's Api.",
+    "(NOT Finished) Introducing an innovative app that uses Next.js, Typescript, NextAuth, TailwindCss, and Spotify's API to effortlessly manage and customize Spotify playlists, with easy song addition and removal capabilities.",
   link: "https://github.com/highpriesst/tracktailor",
 };
 
 export const weatherApp = {
   title: "Weather App",
   description:
-    "One of my old classic weather app, done with Vite, React, Tailwindcss, Axios.",
+    "Never get caught in the rain again with our advanced weather app. Powered by Vite, React, TailwindCss, and Axios, stay up-to-date with real-time weather updates and forecasts with ease.",
   link: "https://github.com/highpriesst/weather-app",
 };
