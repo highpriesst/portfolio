@@ -17,14 +17,14 @@ export const connectAppProject = {
 export const todoProject = {
   title: "Personal Todo Project",
   description:
-    "Personal Todo project done with Typescript, React, Express and Mongodb. TailwindCss",
+    "Personal Todo project done with React, Typescript, Express and Mongodb. Tailwindcss",
   link: "https://www.github.com/highpriesst/personal-todo",
 };
 
 export const connectApp = {
   title: "Connect App",
   description:
-    "Chat application built with Socket.io, Express, Typescript, Next.js. TailwindCss",
+    "Chat application built with Next.js, Typescript, Express, Socket.io, TailwindCss",
   link: "https://github.com/highpriesst/connect-app",
 };
 
@@ -38,6 +38,6 @@ export const tracktailor = {
 export const weatherApp = {
   title: "Weather App",
   description:
-    "One of my old classic weather app, done with just Axios, Sass, React.",
+    "One of my old classic weather app, done with Vite, React, Tailwindcss, Axios.",
   link: "https://github.com/highpriesst/weather-app",
 };
