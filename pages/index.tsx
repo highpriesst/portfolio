@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar";
 import AboutMe from "../sections/AboutMe";
 import Work from "../sections/Work";
 import Links from "../sections/Links";
@@ -15,7 +14,6 @@ export default function Home() {
       <Head>
         <title>Highpriesst</title>
       </Head>
-      <Navbar />
       <AboutMe />
       <Work />
       <Links />
