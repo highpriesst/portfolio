@@ -12,13 +12,19 @@ function Navbar() {
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
 
+  const logoPath = theme === "light" ? logo_dark : logo_white;
+
   return (
     <div className="flex items-center w-full p-5 m-5 justify-around sm:max-w-full ml-46">
       <div className="flex items-center">
-        {theme === "light" ? (
-          <Image src={logo_dark} className="w-20 h-15 ml-4 mr-2" alt="logo" />
-        ) : (
-          <Image src={logo_white} className="w-20 h-15 ml-4 mr-2" alt="logo" />
+        {mounted && (
+          <Image
+            src={logoPath}
+            className="w-20 h-15 ml-4 mr-2"
+            alt="logo"
+            width={80}
+            height={60}
+          />
         )}
       </div>
       <div className="flex items-center ">
