@@ -16,7 +16,7 @@ function SingleLink({
           @{nickname}
           <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-gray-300"></span>
         </a>
-        <ArrowUpRightIcon className="h-3 w-3 ml-1" />
+        <ArrowUpRightIcon className="h-3 w-3 ml-1 dark:text-white" />
       </div>
     </div>
   );
