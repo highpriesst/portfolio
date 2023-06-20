@@ -2,7 +2,7 @@ import SingleLink from "../components/SingleLink";
 
 function Links() {
   return (
-    <div className="text-black flex flex-col p-5 md:pl-10 lg:pl-8 w-full lg:w-1/2">
+    <div className="text-black flex flex-col md:p-5 md:pl-10 lg:pl-8 md:w-full lg:w-1/2">
       <h1 className="mb-3">Links</h1>
       <SingleLink
         name="Github"
