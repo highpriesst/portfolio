@@ -25,8 +25,12 @@ function AboutMe() {
             <span className="ml-2">Web Developer</span>
           </div>
           <div className="flex items-center pl-5 justify-center text-center">
-            <EnvelopeIcon className="w-8 h-8 bg-transparent dark:text-[#d8dee9] text-gray-500 pb-1 mr-2" />
-            <span className="hidden lg:inline-block">Say Hello</span>
+            <a
+              className="email-link text-sm text-[#4c566a] flex items-center"
+              href={`mailto:ertansofia@gmail.com`}>
+              <EnvelopeIcon className="w-8 h-8 bg-transparent dark:text-[#d8dee9] text-gray-500 pb-1 mr-2" />
+              <span className="hidden lg:inline-block">Say Hello</span>
+            </a>
           </div>
         </m.div>
       </div>
