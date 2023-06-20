@@ -24,9 +24,9 @@ function AboutMe() {
 
       <div className="[&>*]:mb-3 lg:flex lg:items-center lg:justify-center lg:flex-col lg:w-1/2">
         <b>
-          <h1>About</h1>
+          <h1 className="mb-2">About</h1>
         </b>
-        <p className=" lg:m-2 lg:flex lg:text-justify ">
+        <p className=" lg:m-2 lg:flex lg:text-justify mb-2">
           Hello, I&#39;m Ertan. I enjoy building dynamic, minimalist, creative
           websites from start to finish.Focused on developing constantly growing
           and improving based on user metrics.
