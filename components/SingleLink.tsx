@@ -22,7 +22,7 @@ function SingleLink({
           @{nickname}
           <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-gray-300"></span>
         </Link>
-        <p className="text-white dark:text-white">
+        <p className="text-black dark:text-white">
           <ArrowUpRightIcon className={`h-3 w-3 ml-1`} />
         </p>
       </div>
