@@ -11,7 +11,7 @@ function Links() {
       />
       <SingleLink
         name="Linkedin"
-        link={"https://linkedin.com/in/highpriesst"}
+        link={"https://linkedin.com/in/ertanm"}
         nickname={"highpriesst"}
       />
       <SingleLink
